@@ -1,0 +1,183 @@
+body{
+    background: url("../decodificadorTexto/images/bn.png");
+    background-color: white;
+    position: relative;
+}
+
+.header-bg {
+    display: flex;
+    align-items: left;
+    margin: 0 auto;
+    width: max-content;
+
+}
+.header-img {
+padding: auto;
+}
+
+.container {
+    display: flex;
+    padding: 10px 70px 70px 0;
+}
+
+h1{
+    padding: 30px 15px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card-principal {
+    width: 40%;
+    margin: .5% auto;
+}
+
+.nav-mensaje {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 40%;
+    filter: drop-shadow(15px 5px 0 black);
+}
+
+.nav-mensaje,
+.img,
+.p{
+    display: flex;
+}
+
+.nav-informacion {
+    display: flex;
+    align-items: center;
+}
+
+.nav-informacion img{
+    background-color: black;
+    border-radius: 100%;
+}
+
+.nav-informacion p {
+    color: black;
+    margin: 0 20px 0 5px;
+}
+
+.campo-decodificado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.botones {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    padding: 10px 0;
+    border-radius: 0 0 10px 10px;
+}
+
+.boton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+   
+}
+.facebook {
+    margin-top: 5px;
+}
+
+.lupa-triste {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    padding: 10px;
+}
+
+#txt-respuesta {
+    width: 80%;
+    display: block;
+    text-align: center;
+    word-break: break-word;
+    color: gray;
+}
+
+#btn-copiar {
+    display: none;
+    margin-top: 15px;
+    border: 2px solid black;
+}
+
+.btn-deco {
+    background: white;
+    padding: 5px 15px;
+    border-radius: 40px;
+    border-color: black;
+    outline: none;
+    font-family: 'Poppins';
+    font-weight: bold;
+    color: black;
+    transition: all 0.1s linear;
+}
+
+.btn-deco:hover {
+    background-color: black;
+    color: white;
+    transition: 1s all;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.btn-deco:active {
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, .6);
+    color: white;
+}
+
+#txt-cod {
+    width: 100%;
+    padding: 10px 5px;
+    border: none;
+    resize: none;
+    outline: none;
+    font-family: 'PT Serif';
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(1, 66, 66);
+}
+
+@media screen and (max-width:480px) {
+    .container {
+        display: flex;
+        padding: 0 10px 15px 0px;
+
+}
+
+.nav-informacion,.img{
+display: flex;
+font-size: .5em;
+
+}
+
+.boton{
+margin: 20px 5px;
+}
+
+}
